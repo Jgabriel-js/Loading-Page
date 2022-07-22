@@ -1,0 +1,19 @@
+body {
+    background-color: #111;
+}
+.loading {
+    margin-top: 20%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #0000 10%,
+        #8f44fd
+    );
+    animation: spin 0.8s infinite linear;
+}
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
